@@ -1,0 +1,40 @@
+body{
+	font-family: arial;
+	background-color: #999;
+}
+
+#container {
+	width: 700px;
+	margin: 30px auto;
+}
+
+.generate, .remove{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #FDF5E6;
+}
+
+.generate:hover, .remove:hover {
+	background-color: #444;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.property{
+	background-color: #313D91;
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px 0 3px 0;
+}
+
+.propertyID, .sqFt, .costSqFt, .removeButton{
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	height: 30px;
+	color: white;
+}
